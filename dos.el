@@ -28,6 +28,10 @@
 	    (setq kill-ring-yank-pointer ARGth-kill-element))
 	(car ARGth-kill-element)))))
 
+(defun Hola2 (nada)
+  (interactive "P")
+  (message "Hola2"))
+
 (defun Hola (nada)
   (interactive "P")
   (message "Hola"))
