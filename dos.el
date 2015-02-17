@@ -27,3 +27,7 @@
 	(or do-not-move
 	    (setq kill-ring-yank-pointer ARGth-kill-element))
 	(car ARGth-kill-element)))))
+
+(defun Hola (nada)
+  (interactive "P")
+  (message "Hola"))
